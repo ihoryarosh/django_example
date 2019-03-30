@@ -1,4 +1,7 @@
 {% extends 'page_denis_vorko/wrapper.html' %}
+{% block title %}
+	{{job.title}}
+{% endblock %}
 {% block content %}
 <div class='container-fluid title'>
 <h1>{{job.title}}</h1>
@@ -6,7 +9,6 @@
 <div class="container-fluid">
   	<div class='col'>
   	    <img src="{{job.image.url}}" alt="myimage" class="about">
-  	</div>    
+  	</div>
  </div>
-
 {% endblock %}
