@@ -1,0 +1,31 @@
+body {
+background: #ccffff;
+}
+.nav-link {
+	color: #fff;
+}
+.nav {
+	justify-content: space-between;
+	padding: 0 50px;
+
+}
+.nav-item {
+	padding-left: 120px;
+}
+.row {
+	justify-content: space-around;
+
+}
+img.icon {
+	width: 10rem;
+	height: 3rem;
+	border-radius: .5rem;
+
+}
+div.card {
+	margin-top: 1rem;
+}
+h1 {
+
+	font-size: 3rem;
+}
