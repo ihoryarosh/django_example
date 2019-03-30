@@ -7,7 +7,7 @@ class Job(models.Model):
 #    author = models.CharField(max_length=56, default='Denis Vorko')
     date_pub = models.DateTimeField(auto_now_add=True)
     manual = models.TextField(help_text='About this', max_length=1024, blank=True)
-    image = models.ImageField(upload_to='page_denis_vorko/static/page_denis_vorko/img')
+    image = models.ImageField(upload_to='jobs')
 
     class Meta():
         ordering = ['-date_pub']
