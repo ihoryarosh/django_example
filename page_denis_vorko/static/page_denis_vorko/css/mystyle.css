@@ -24,8 +24,13 @@ img.icon {
 }
 div.card {
 	margin-top: 1rem;
+
 }
 h1 {
 
 	font-size: 3rem;
+}
+img.about {
+	width: auto;
+
 }
