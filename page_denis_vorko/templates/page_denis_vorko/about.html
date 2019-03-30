@@ -1,10 +1,12 @@
 {% extends 'page_denis_vorko/wrapper.html' %}
 {% block content %}
-<h1>Kiss My ASS!!!</h1>
-<div class="container-fluid">
-  <div class="row">
-    <img src="{{job.image.url}}" alt="myimage" class="about">
-  </div>
+<div class='container-fluid title'>
+<h1>{{job.title}}</h1>
 </div>
+<div class="container-fluid">
+  	<div class='col'>
+  	    <img src="{{job.image.url}}" alt="myimage" class="about">
+  	</div>    
+ </div>
 
 {% endblock %}

@@ -31,6 +31,10 @@ h1 {
 	font-size: 3rem;
 }
 img.about {
-	width: auto;
+	width: inherit
+	;
 
+}
+div.title {
+text-align:center;
 }

@@ -6,7 +6,7 @@
 
 {% block content %}
 
-<div class="container-fluid mt-4 col-md-6 offset-md-4">
+<div class="container-fluid title">
       <h1>Работы автора</h1>
     </div>
 <div class="container-fluid">
@@ -19,7 +19,7 @@
 					  <div class="card-body">
 					    <h5 class="card-title">{{job.title}}</h5>
 					    <p class="card-text">{{job.manual|truncatewords:15}}<br>{{job.date_pub}}</p>
-					    <a href="about/{{job.title}}" class="btn btn-primary">Подробнее &raquo</a>
+					    <a href="about/{{job.title}}" class="btn btn-primary" target='blanc' >Подробнее &raquo</a>
 					  </div>
 			</div>
 		{% endfor %}
